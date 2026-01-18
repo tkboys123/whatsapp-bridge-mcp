@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  bridge:
+    build:
+      context: ./bridge
+      dockerfile: Dockerfile
+    container_name: whatsapp-bridge
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./bridge/store:/app/store
+    restart: unless-stopped
+    environment:
+      - PORT=8080
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  bot:
+    build:
+      context: ./examples/basic-bot
+      dockerfile: Dockerfile
+    container_name: whatsapp-bot
+    depends_on:
+      - bridge
+    volumes:
+      - ./bridge/store:/app/bridge/store:ro
+    restart: unless-stopped
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - BRIDGE_URL=http://bridge:8080
+      - BRIDGE_DB_PATH=/app/bridge/store/messages.db
+      - POLLING_INTERVAL=2
+    healthcheck:
+      test: ["CMD", "python", "-c", "import sys; sys.exit(0)"]
+      interval: 60s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  store:
+    driver: local

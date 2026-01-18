@@ -1,0 +1,73 @@
+# Environment files
+.env
+.env.local
+.env.production
+
+# API Keys and Secrets
+credentials/
+*.pem
+*.key
+client_secret*.json
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+store/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+go.work
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# WhatsApp session data
+*.session
+mdtest_*
+session*.json
+
+# Temporary files
+tmp/
+temp/
+*.tmp
